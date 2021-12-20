@@ -49,7 +49,7 @@ def valida_quantidade_pecas_cores_peoes_e_nomes(pecas):
             return False
     for casa in list(pecas.keys()):
         if casa[1] not in nomes_casas:
-            logador('casa invalida informada')
+            logador(f"casa |{casa}| invalida informada")
             return False
     return True
 
