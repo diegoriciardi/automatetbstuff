@@ -2,10 +2,10 @@ from pony.orm import *
 
 db = Database(
         provider='mysql',
-        user='root',     
-        host='db',       
-        passwd='abc',    
-        db='banco_novo'  
+        user='example',     
+        host='example',       
+        passwd='example',    
+        db='example'  
      )
 
 class Person(db.Entity):
